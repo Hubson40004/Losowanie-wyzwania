@@ -1,0 +1,286 @@
+body{
+background-color:#ABCDEF;
+}
+#gora{
+background-color:rgb(125, 140, 167);
+height:100px;
+color:black;
+padding:20px;
+text-align:center;
+
+}
+#prawy{
+  background-color:rgb(218, 243, 252);
+height:1800px;
+width:20%;
+float:right;
+}
+#srodek{
+background-color: rgb(198, 235, 235);
+height:1800px;
+width:60%;
+float:left;
+}
+#lewy{
+background-color:rgb(218, 243, 252);
+height:1800px;
+width:20%;
+float:left;
+}
+#stopka{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(125, 140, 167);
+  height: 300px;
+  color: white;
+  padding: 0 10px;
+}
+.logo{
+  width: 100px;
+  height: auto;
+}
+.kolumna1{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kolumna2{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  line-height: 1.2;
+  font-size: 14px;
+}
+.kolumna2 p, .kolumna2 li, .kolumna2 a {
+  margin: 3px 0;
+  padding: 0;
+}
+.kolumna3{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  line-height: 1.2;
+  font-size: 14px;
+
+}
+.kolumna3 p, .kolumna3 li, .kolumna3 a {
+  margin: 3px 0;
+  padding: 0;
+}
+.kolumna4{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  line-height: 0.8;
+  font-size: 14px;
+
+}
+.fb{
+  width: 60px;
+  height: 40px;
+}
+.ig{
+  width: 40px;
+  height: 40px;
+}
+.wh{
+  width: 40px;
+  height: 40px;
+}
+.tg{
+  width: 40px;
+  height: 40px;
+}
+.rub-email {
+  display:flex;
+  gap:10px;
+  margin:20px 0;
+}
+.rub-email .polema {
+  flex:1;
+  padding:10px;
+  border:2px solid #ccc;
+  border-radius:8px;
+  transition:border-color .3s;
+}
+.rub-email .polema:focus {
+  border-color:#4A90E2;
+  outline:none;
+}
+.rub-email .przycisk2 {
+  padding:10px 20px;
+  background:#4A90E2;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  transition:.2s;
+}
+.rub-email .przycisk2:hover {
+  background:#357ABD;
+  transform:translateY(-2px);
+}
+
+#naglowek {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7d8ca7; 
+  padding: 10px 30px;
+  height: 80px;
+  color: white;
+}
+
+.logo-naglowek {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo {
+  width: 30px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #cfd8e5;
+}
+
+.przycisk-logowanie button {
+  background-color: #4a90e2;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.przycisk-logowanie button:hover {
+  background-color: #357ABD;
+}
+
+.losowanie {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .losowanie:hover {
+    background-color: #357ABD;
+    transform: translateY(-2px);
+  }
+  .przycisk1 {
+    background-color: #6C63FF;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  }
+  
+  .przycisk1:hover {
+    background-color: #574b90;
+    transform: scale(1.05);
+  }
+
+  .arrow-gif {
+    width: 50px;
+    height: auto;
+  }
+  .arrow-gif2{
+    width: 50px;
+    height: auto;
+    transform: rotate(180deg);
+  }
+  .strzalka-przycisk{
+    display: flex;
+    align-items: center;
+  }
+  .confetti1{
+    display: none; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    pointer-events: none; 
+    z-index: 9999;
+  }
+  #ukonczone, #pokazHistorie {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  #ukonczone:hover, #pokaz-historie:hover {
+    background-color: #357ABD;
+    transform: translateY(-2px);
+  }
+  
+  #historia {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-top: 15px;
+  }
+  .podkreslone {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 3px;
+  }
+  
+  #gratulacje {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+  }
+  
